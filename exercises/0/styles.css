@@ -3,6 +3,39 @@
     margin:0;
 }
 
-body{
+main{
     background-image: url(/exercises/0/src/background.jpg);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
 }
+
+.key_container{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+    gap:10px;
+}
+
+.key {
+    border: .4rem solid black;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 2rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
+    font-family: sans-serif;
+  }
+
+  .sound {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #ffc600;
+  }
