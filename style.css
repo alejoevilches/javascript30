@@ -1,0 +1,97 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+@font-face {
+    font-family: "Source Sans PRO Bold";
+    src: url(/fonts/SourceSansPro-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Source Sans PRO Regular";
+    src: url(/fonts/SourceSansPro-Regular.ttf);
+}
+
+:root{
+    --bold-font:"Source Sans PRO Bold";
+    --regular-font:"Source Sans PRO Regular"
+}
+
+body{
+    background: #12c2e9; 
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9); 
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); 
+}
+
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:10vh;
+    align-items: center;
+    padding:0 10px;
+    font-family: var(--regular-font);
+    font-size:1.1rem;
+}
+
+header a{
+    text-decoration: none;
+    color:black;
+}
+
+.title{
+    text-align: center;
+    padding-top:2vh;
+    font-family: var(--bold-font);
+    font-size:3rem;
+}
+
+.card{
+    background-color: white;
+    height:300px;
+    width: 250px;
+    border-radius: 60px;
+    margin:0;
+    animation:blur-in-expand 1.5s ease both;
+    overflow: hidden;
+}
+
+.card_title{
+    font-size:1.2rem;
+    margin:10px;
+    font-family: var(--bold-font);
+}
+
+.card_img{
+    height:170px;
+    width:100%;
+}
+
+.card_description{
+    margin:10px;
+    font-family:var(--regular-font)
+}
+
+main{
+    padding:10px;
+}
+
+.container{
+    margin-top:20px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:10px;
+    justify-content: center;
+}
+
+@keyframes blur-in-expand{
+    0% 
+    {
+        transform:scale(0);filter:blur(12px);opacity:0
+    }
+    100%
+    {
+        transform:scale(1);filter:blur(0);opacity:1
+    }}
