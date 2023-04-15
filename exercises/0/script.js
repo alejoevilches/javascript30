@@ -2,13 +2,21 @@
 const keys=document.querySelectorAll("[data-key]")
 
 function makeSounds(){
-document.addEventListener("keypress", (e)=>{
+document.addEventListener("keydown", (e)=>{
     keys.forEach(key => {
         if (key.dataset.key==e.key.toUpperCase()){
-            return console.log(key)
+            key.className+=" playing"
         } 
     })
 })
 }
+
+document.addEventListener("keyup", (e)=>{
+    keys.forEach(key => {
+        if (key.dataset.key==e.key.toUpperCase()){
+            key.classList.remove("playing");
+        } 
+    })
+})
 
 makeSounds();
