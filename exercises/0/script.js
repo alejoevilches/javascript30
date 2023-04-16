@@ -14,9 +14,10 @@ document.addEventListener("keydown", (e)=>{
 document.addEventListener("keyup", (e)=>{
     keys.forEach(key => {
         if (key.dataset.key==e.key.toUpperCase()){
+            let wav=key.dataset.key;
             key.classList.remove("playing");
             let sound=document.createElement("audio");
-            sound.setAttribute("src", './src/sounds/${e.key.toUpperCase()}.wav');
+            sound.setAttribute("src", `./src/sounds/${wav}.wav`);
             sound.play();
         } 
     })
