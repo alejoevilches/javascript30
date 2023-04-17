@@ -9,7 +9,7 @@ document.addEventListener("keydown", (e)=>{
         } 
     })
 })
-}
+
 
 document.addEventListener("keyup", (e)=>{
     keys.forEach(key => {
@@ -22,5 +22,6 @@ document.addEventListener("keyup", (e)=>{
         } 
     })
 })
+}
 
 makeSounds();
