@@ -2,7 +2,7 @@
 const spacingInput=document.getElementById("spacing");
 const blurInput=document.getElementById("blur");
 const baseInput=document.getElementById("base");
-const img=document.getElementById("img");
+const img=document.querySelector(".img_container");
 
 function updateVariables(){
     blurInput.addEventListener("change",()=>{
@@ -10,9 +10,11 @@ function updateVariables(){
     })
 
     spacingInput.addEventListener("change",()=>{
-        console.log(spacingInput.value);
-        img.style.margin=`${spacingInput.value}px`
-        console.log(img.style.margin);
+        img.style.padding=`${spacingInput.value}px`
+    })
+
+    baseInput.addEventListener("change",()=>{
+        img.style.backgroundColor=baseInput.value;
     })
 }
 

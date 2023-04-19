@@ -12,7 +12,8 @@ const ejercicios=[
     },
     {
         title:"Update CSS Variables with JavaScript",
-        description:"Una app para modificar variables CSS utilizando Javascript"
+        description:"Una app para modificar variables CSS utilizando Javascript",
+        image:"/src/screenshots/2.png"
     }
 ]
 
