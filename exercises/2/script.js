@@ -1,6 +1,5 @@
 //NodeList con controles
 const controls=document.querySelectorAll(".controls input")
-const span=document.getElementById("hl");
 
 
 //Agrego events listener a cada control

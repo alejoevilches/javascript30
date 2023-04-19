@@ -14,6 +14,11 @@ const ejercicios=[
         title:"Update CSS Variables with JavaScript",
         description:"Una app para modificar variables CSS utilizando Javascript",
         image:"/src/screenshots/2.png"
+    },
+    {
+        title:"Array cardio 1",
+        description:"Ejercicios sobre metodos de array",
+        image:""
     }
 ]
 
