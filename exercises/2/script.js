@@ -1,21 +1,9 @@
-//Constantes de los inputs
-const spacingInput=document.getElementById("spacing");
-const blurInput=document.getElementById("blur");
-const baseInput=document.getElementById("base");
-const img=document.querySelector(".img_container");
+//NodeList con controles
+const controls=document.querySelectorAll(".controls input")
 
-function updateVariables(){
-    blurInput.addEventListener("change",()=>{
-        img.style.filter=`blur(${blurInput.value}px)`
+//Agrego events listener a cada control
+controls.forEach(control=>{
+    control.addEventListener("change",()=>{
+        console.log(control.value)
     })
-
-    spacingInput.addEventListener("change",()=>{
-        img.style.padding=`${spacingInput.value}px`
-    })
-
-    baseInput.addEventListener("change",()=>{
-        img.style.backgroundColor=baseInput.value;
-    })
-}
-
-updateVariables();
+})
