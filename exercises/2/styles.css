@@ -18,4 +18,6 @@ body {
   img{
     width:80vw;
     height:40vw;
+    margin:0;
+    background-color: inherit;
   }
