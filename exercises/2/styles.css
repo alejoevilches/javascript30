@@ -1,7 +1,7 @@
 :root{
-  --base: yellow;
+  --base: initial;
   --spacing:0;
-  --blur:0;
+  --blur:0
 }
 
 body {
@@ -9,15 +9,15 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background: #193549;
+    background-color:#193549; 
     color: white;
     font-family: 'helvetica neue', sans-serif;
     font-weight: 100;
     font-size: 30px;
   }
 
-  .h1{
-    color:initial;
+  #hl{
+    color:var(--base);
   }
 
   .controls {
@@ -31,14 +31,16 @@ body {
   .img_container{
     width:85vw;
     height:70vh;
-    background-color: inherit;
+    background-color: var(--base);
     display: flex;
     align-items: center;
     justify-content: center;
+    padding:var(--spacing)
   }
 
   img{
     width:80vw;
     height:40vw;
     padding:0;
+    filter:blur(var(--blur))
   }
