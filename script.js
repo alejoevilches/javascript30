@@ -8,7 +8,11 @@ const ejercicios=[
     {
         title:"JavaScript + CSS Clock",
         description:"Un reloj elegante diseñado usando JavaScript",
-        image:""
+        image:"/src/screenshots/1.png"
+    },
+    {
+        title:"Update CSS Variables with JavaScript",
+        description:"Una app para modificar variables CSS utilizando Javascript"
     }
 ]
 
