@@ -51,8 +51,23 @@ let inventorsSortedByYearsLived=inventors.sort((a,b)=>{
   return (a.passed-a.year) - (b.passed-b.year);
 })
 
-// 6. create a list of Boulevards in Paris that contain 'de' anywhere in the name
-en.wikipedia.org/wiki/Category:Boulevards_in_Paris
+// 7. sort Exercise
+// Sort the people alphabetically by last name
+let peopleSorted=people.sort();
+
+// 8. Reduce Exercise
+// Sum up the instances of each of these
+const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck' ];
+let dataInstances=data.reduce((obj,item)=>{
+  if (!obj[item]){
+    obj[item]=0
+    obj[item]++
+  } else {
+    obj[item]++
+  }
+  return obj
+},{})
+
 
 console.log("Respuesta del ejercicio 1:")
 console.log(inventorsFrom1500)
@@ -69,11 +84,12 @@ console.log(totalAges)
 console.log("Respuesta al ejercicio 5:")
 console.log(inventorsSortedByYearsLived)
 
-boulevardList.forEach(boulevard=>{
-  if (boulevard.outerText.includes("de")){
-      solution.push(boulevard.outerText)
-  }
-})
+console.log("Respuesta al ejercicio 7:")
+console.log(peopleSorted)
+
+console.log("Respuesta al ejercicio 8:");
+console.log(dataInstances)
+
 
 
 
