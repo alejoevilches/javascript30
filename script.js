@@ -16,9 +16,13 @@ const ejercicios=[
         image:"/src/screenshots/2.png"
     },
     {
-        title:"Array cardio 1",
+        title:"Array Cardio 1",
         description:"Ejercicios sobre metodos de array",
-        image:""
+        image:"/src/screenshots/3.png"
+    },
+    {
+        title:"Flex Panels Image Gallery",
+        description:"Un panel de imagenes con efectos de animación."
     }
 ]
 
