@@ -22,7 +22,12 @@ const ejercicios=[
     },
     {
         title:"Flex Panels Image Gallery",
-        description:"Un panel de imagenes con efectos de animación."
+        description:"Un panel de imagenes con efectos de animación.",
+        image:"/src/screenshots/4.png"
+    },
+    {
+        title:"Ajax Type Ahead",
+        description:"Una app que muestra ciudades desde un endpoint."
     }
 ]
 
