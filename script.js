@@ -34,6 +34,10 @@ const ejercicios=[
         title:"Array Cardio 2",
         description:"Mas ejercicios sobre metodos de arrays.",
         image:"/src/screenshots/6.png"
+    },
+    {
+        title:"HTML5 Canvas",
+        description: "Un lienzo para dibujar usando solo HTML y JS"
     }
 ]
 
