@@ -32,7 +32,8 @@ const ejercicios=[
     },
     {
         title:"Array Cardio 2",
-        description:"Mas ejercicios sobre metodos de arrays."
+        description:"Mas ejercicios sobre metodos de arrays.",
+        image:"/src/screenshots/6.png"
     }
 ]
 
