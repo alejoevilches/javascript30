@@ -27,7 +27,12 @@ const ejercicios=[
     },
     {
         title:"Ajax Type Ahead",
-        description:"Una app que muestra ciudades desde un endpoint."
+        description:"Una app que muestra ciudades desde un endpoint.",
+        image:"/src/screenshots/5.png"
+    },
+    {
+        title:"Array Cardio 2",
+        description:"Mas ejercicios sobre metodos de arrays."
     }
 ]
 
