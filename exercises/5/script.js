@@ -1,5 +1,7 @@
 const endpoint = 'https://gist.githubusercontent.com/Miserlou/c5cd8364bf9b2420bb29/raw/2bf258763cdddd704f8ffd3ea9a3e81d25e2c6f6/cities.json';
 let cities=[];
+const searchBar=document.getElementById("input");
+const suggestionsBar=document.getElementById("suggestion")
 
 //obtain data and push it to cities
 fetch(endpoint)
@@ -13,3 +15,9 @@ function encontrarCiudades(palabra){
     })
 }
 
+function mostrarCoincidencias(){
+    const arrayCoincidencias=encontrarCiudades(this.value);
+    console.log(arrayCoincidencias)
+}
+ 
+searchBar.addEventListener("input",mostrarCoincidencias);
