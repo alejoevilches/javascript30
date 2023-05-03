@@ -17,7 +17,15 @@ function encontrarCiudades(palabra){
 
 function mostrarCoincidencias(){
     const arrayCoincidencias=encontrarCiudades(this.value);
-    console.log(arrayCoincidencias)
+    const html=arrayCoincidencias.map(place => {
+        return `
+            <li>
+                <span class="name">${place.city}, ${place.state}</span>
+                <span class="population">${place.population}</span>
+            </li>
+        `
+    }).join("");
+    suggestionsBar.innerHTML=html;
 }
  
 searchBar.addEventListener("input",mostrarCoincidencias);
