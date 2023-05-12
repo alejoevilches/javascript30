@@ -37,7 +37,8 @@ const ejercicios=[
     },
     {
         title:"HTML5 Canvas",
-        description: "Un lienzo para dibujar usando solo HTML y JS"
+        description: "Un lienzo para dibujar usando solo HTML y JS",
+        image:"/src/screenshots/7.png"
     }
 ]
 
