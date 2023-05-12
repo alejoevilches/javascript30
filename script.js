@@ -39,6 +39,11 @@ const ejercicios=[
         title:"HTML5 Canvas",
         description: "Un lienzo para dibujar usando solo HTML y JS",
         image:"/src/screenshots/7.png"
+    },
+    {
+        title:"Dev Tool Tricks",
+        description: "Formas de utilizar las herramientas de desarrollador",
+        image:"/src/screenshots/8.png"
     }
 ]
 
