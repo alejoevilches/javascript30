@@ -25,3 +25,14 @@ console.error("Esto es un error");
 
 //Info
 console.info("Esto es informacion")
+
+//Assert
+console.assert(1==2, "esto es erroneo!")
+
+//Clearing
+//console.clear();
+
+//Ver elementos del DOM
+let p=document.querySelector("p");
+console.dir(p)
+console.log(p)
