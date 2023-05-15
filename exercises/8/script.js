@@ -16,3 +16,12 @@ console.log(`I am a ${club} fan`)
 
 //Styled
 console.log(`%c I am a styled text`, "color:violet; background-color:black")
+
+//Warn
+console.warn("Esto es una advertencia")
+
+//Error
+console.error("Esto es un error");
+
+//Info
+console.info("Esto es informacion")
