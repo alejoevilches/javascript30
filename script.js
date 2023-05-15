@@ -44,6 +44,11 @@ const ejercicios=[
         title:"Dev Tool Tricks",
         description: "Formas de utilizar las herramientas de desarrollador",
         image:"/src/screenshots/8.png"
+    },
+    {
+        title:"Checking multiple checkboxes",
+        description: "Una todo-list para probar metodos de inputs",
+        image:"/src/screenshots/9.png"
     }
 ]
 

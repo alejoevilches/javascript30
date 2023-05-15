@@ -60,4 +60,4 @@ fetch("https://api.github.com/users/alejoevilches")
   })
 
 //Tablas
-console.table(dogs);
+console.table(dogs); 
