@@ -1,4 +1,4 @@
-const dogs = [{ name: 'Snickers', age: 2 }, { name: 'hugo', age: 8 }];
+const dogs = [{ name: 'Snickers', age: 2 }, { name: 'Hugo', age: 8 }];
 let club="River Plate"
 
 function makeGreen() {
@@ -36,3 +36,28 @@ console.assert(1==2, "esto es erroneo!")
 let p=document.querySelector("p");
 console.dir(p)
 console.log(p)
+
+//Agrupando elementos de un array
+dogs.forEach(dog=>{
+  console.group(`${dog.name}`)
+  console.log(`${dog.name} is a dog`)
+  console.log(`${dog.name} is ${dog.age*7}`)
+  console.groupEnd(`${dog.name}`)
+})
+
+//Counting
+console.count("Alejo")
+console.count("Alejo")
+console.count("Alejo")
+
+//Timing
+console.time("fetching data");
+fetch("https://api.github.com/users/alejoevilches")
+  .then(data=>data.json())
+  .then(data=>{
+    console.timeEnd("fetching data")
+    console.log(data);
+  })
+
+//Tablas
+console.table(dogs);
