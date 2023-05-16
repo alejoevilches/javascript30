@@ -46,10 +46,15 @@ const ejercicios=[
         image:"/src/screenshots/8.png"
     },
     {
-        title:"Checking multiple checkboxes",
+        title:"Checking Multiple Checkboxes",
         description: "Una todo-list para probar metodos de inputs",
         image:"/src/screenshots/9.png"
-    }
+    },
+    {
+        title:"Custom HTML5 Video Player",
+        description: "Una reproductor de video totalmente customizado",
+        image:"/src/screenshots/10.png"
+    },
 ]
 
 console.log(ejercicios[0].title)
