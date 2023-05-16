@@ -55,6 +55,11 @@ const ejercicios=[
         description: "Una reproductor de video totalmente customizado",
         image:"/src/screenshots/10.png"
     },
+    {
+        title:"Key Sequence Detection",
+        description: "Una reproductor de video totalmente customizado",
+        image:"/src/screenshots/11.png"
+    },
 ]
 
 console.log(ejercicios[0].title)
