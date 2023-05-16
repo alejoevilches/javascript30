@@ -57,7 +57,7 @@ const ejercicios=[
     },
     {
         title:"Key Sequence Detection",
-        description: "Una reproductor de video totalmente customizado",
+        description: "Un detector de secuencias del teclado",
         image:"/src/screenshots/11.png"
     },
 ]
