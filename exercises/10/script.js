@@ -19,7 +19,16 @@ function updateButton(){
 }
 
 function skip(){
-    console.log("skipping")
+    video.currentTime+=parseFloat(this.dataset.skip)
+}
+
+function handleRangeChange(){
+    this.name=value
+}
+
+function handleProgress(){
+    const percent=(video.currentTime / video.duration)*100;
+    progressBar.style.flexBasis=`${percent}%`
 }
 
 //Event listeners
@@ -27,7 +36,11 @@ toggle.addEventListener("click", togglePlay);
 video.addEventListener("play", updateButton)
 video.addEventListener("pause", updateButton)
 video.addEventListener("click", togglePlay);
+video.addEventListener("timeupdate", handleProgress);
 skipButtons.forEach(button => {
     button.addEventListener("click", skip)
+});
+ranges.forEach(range => {
+    range.addEventListener("input", handleRangeChange)
 });
 
