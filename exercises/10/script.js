@@ -31,6 +31,12 @@ function handleProgress(){
     progressBar.style.flexBasis=`${percent}%`
 }
 
+function handleProgressBar(e){
+    const updatedTime=(e.offsetX/progress.offsetWidth) * video.duration
+    console.log(updatedTime)
+    video.currentTime=updatedTime;
+}
+
 //Event listeners
 toggle.addEventListener("click", togglePlay);
 video.addEventListener("play", updateButton)
@@ -43,4 +49,14 @@ skipButtons.forEach(button => {
 ranges.forEach(range => {
     range.addEventListener("input", handleRangeChange)
 });
-
+progress.addEventListener("click",handleProgressBar)
+progress.addEventListener("input", (e)=>{
+    mousedown ? handleProgressBar(e) : mousedown=false;
+})
+let mousedown=false;
+progress.addEventListener("mousedown", ()=>{
+    mousedown=true;
+})
+progress.addEventListener("mousedown", ()=>{
+    mousedown=false;
+})
