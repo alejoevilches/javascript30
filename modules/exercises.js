@@ -64,6 +64,12 @@ const ejercicios=[
         description: "Una animacion de imagenes al scrollear",
         image:"/src/screenshots/12.png"
     },
+    {
+        title:"Reference VS Copy In Objects and Arrays",
+        description: "Ejercicios para trabajar referencias en objetos",
+        image:"/src/screenshots/13.png"
+    },
+
 ]
 
 export default ejercicios
