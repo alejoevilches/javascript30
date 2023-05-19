@@ -18,15 +18,27 @@ function fillList(plates=[], platesList){
     platesList.innerHTML=plates.map((plate, i)=>{
         return `
         <li>
-        <input type="checkbox" data-index="${i}" id="item${i}" ${plate.done==true ? "checked" :  ""}">
+        <input type="checkbox" data-index="${i}" id="item${i}" ${plate.done==true ? "checked" :  ""}>
         <label for="item${i}">${plate.name}</label>
         </li>
         `
     }).join("")
 }
 
+function plateDone(e){
+    if (!e.target.matches("input")){
+        return
+    }
+    const el=e.target;
+    const index=el.dataset.index;
+    console.log(index);
+    items[index].done = !items[index].done;
+    fillList(items,itemList);
+    localStorage.setItem("items", JSON.stringify(items));
+}
 
 fillList(items,itemList);
 
 
+itemList.addEventListener("change", plateDone)
 addItems.addEventListener("submit",addItem)
