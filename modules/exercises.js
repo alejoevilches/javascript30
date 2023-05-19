@@ -74,8 +74,11 @@ const ejercicios=[
         description: "Lista que guarda elementos en LocalStorage",
         image:"/src/screenshots/14.png"
     },
-
-
+    {
+        title:"CSS Text Shadow Move Effect",
+        description: "App de efectos con mouse",
+        image:"/src/screenshots/15.png"
+    },
 ]
 
 export default ejercicios
