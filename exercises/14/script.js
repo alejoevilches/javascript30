@@ -14,10 +14,11 @@ function addItem(e){
 }
 
 function fillList(plates=[], platesList){
-    platesList.innerHTML=plates.map(plate=>{
+    platesList.innerHTML=plates.map((plate, i)=>{
         return `
         <li>
-        <label for="">${plate.name}</label>
+        <input type="checkbox" data-index="${i}" id="item${i}" ${plate.done==true ? "checked" :  ""}">
+        <label for="item${i}">${plate.name}</label>
         </li>
         `
     }).join("")
