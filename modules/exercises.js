@@ -69,6 +69,12 @@ const ejercicios=[
         description: "Ejercicios para trabajar referencias en objetos",
         image:"/src/screenshots/13.png"
     },
+    {
+        title:"LocalStorage and Event Delegation",
+        description: "Lista que guarda elementos en LocalStorage",
+        image:"/src/screenshots/14.png"
+    },
+
 
 ]
 
