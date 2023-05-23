@@ -79,6 +79,11 @@ const ejercicios=[
         description: "App de efectos con mouse",
         image:"/src/screenshots/15.png"
     },
+    {
+        title:"Sorting Band Names Without Articles",
+        description: "Ejercicios de arrays y regexp",
+        image:"/src/screenshots/16.png"
+    },
 ]
 
 export default ejercicios
