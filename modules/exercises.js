@@ -84,6 +84,11 @@ const ejercicios=[
         description: "Ejercicios de arrays y regexp",
         image:"/src/screenshots/16.png"
     },
+    {
+        title:"Tally String Times With Reduce",
+        description: "Ejercicios de arrays y regexp",
+        image:"/src/screenshots/17.png"
+    },
 ]
 
 export default ejercicios
