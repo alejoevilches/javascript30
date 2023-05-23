@@ -86,7 +86,7 @@ const ejercicios=[
     },
     {
         title:"Tally String Times With Reduce",
-        description: "Ejercicios de arrays y regexp",
+        description: "Ejercicios utilizando el metodo reduce",
         image:"/src/screenshots/17.png"
     },
 ]
