@@ -94,6 +94,11 @@ const ejercicios=[
         description: "App que detecta voz y lo transcribe a texto",
         image:"/src/screenshots/18.png"
     },
+    {
+        title:"Geolocation App",
+        description: "App que geolocaliza al usuario",
+        image:"/src/screenshots/19.png"
+    },
 ]
 
 export default ejercicios
