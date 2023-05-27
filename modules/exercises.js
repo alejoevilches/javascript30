@@ -89,6 +89,11 @@ const ejercicios=[
         description: "Ejercicios utilizando el metodo reduce",
         image:"/src/screenshots/17.png"
     },
+    {
+        title:"Webcam Fun",
+        description: "Aprendiendo a capturar media del usuario",
+        image:"/src/screenshots/18.png"
+    },
 ]
 
 export default ejercicios
