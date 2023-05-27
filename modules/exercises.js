@@ -90,8 +90,8 @@ const ejercicios=[
         image:"/src/screenshots/17.png"
     },
     {
-        title:"Webcam Fun",
-        description: "Aprendiendo a capturar media del usuario",
+        title:"Speech-to-Text App",
+        description: "App que detecta voz y lo transcribe a texto",
         image:"/src/screenshots/18.png"
     },
 ]
