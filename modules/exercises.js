@@ -99,6 +99,11 @@ const ejercicios=[
         description: "App que geolocaliza al usuario",
         image:"/src/screenshots/19.png"
     },
+    {
+        title:"Follow Along Links",
+        description: "Ejercicio para trabajar hovers en links",
+        image:"/src/screenshots/20.png"
+    },
 ]
 
 export default ejercicios
