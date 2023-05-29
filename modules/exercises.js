@@ -119,6 +119,16 @@ const ejercicios=[
         description: "Ejercicios sobre propiedades de event listeners",
         image:"/src/screenshots/23.png"
     },
+    {
+        title:"Follow Along Dropdown",
+        description: "Un nav animado segun el hover del usuario",
+        image:"/src/screenshots/24.png"
+    },
+    {
+        title:"Click And Drag To Scroll",
+        description: "Un slide que puede scrollearse",
+        image:"/src/screenshots/25.png"
+    },
 ]
 
 export default ejercicios
