@@ -13,6 +13,12 @@ function populateVoices(){
     .map(voice=>`<option value="${voice.name}">${voice.name} (${voice.lang})</option>`)
     .join("");
     voicesDropdown.innerHTML=voiceOptions;
-    
 }
+
+function setVoice(){
+    msg.voices=voices.find(voice=>voice.name===this.value);
+    console.log(this.voices);
+}
+
 speechSynthesis.addEventListener("voiceschanged", populateVoices)
+voicesDropdown.addEventListener("change", setVoice);
