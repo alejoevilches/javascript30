@@ -109,10 +109,15 @@ const ejercicios=[
         description: "Ejercicio para trabajar con APIs del navegador",
         image:"/src/screenshots/21.png"
     },
-        {
+    {
         title:"Sticky Nav",
         description: "Deteccion de movimiento para un nav",
         image:"/src/screenshots/22.png"
+    },
+    {
+        title:"Propagation, Bubbling and Once",
+        description: "Ejercicios sobre propiedades de event listeners",
+        image:"/src/screenshots/23.png"
     },
 ]
 
