@@ -104,6 +104,11 @@ const ejercicios=[
         description: "Ejercicio para trabajar hovers en links",
         image:"/src/screenshots/20.png"
     },
+    {
+        title:"Speech Synthesis",
+        description: "Ejercicio para trabajar con APIs del navegador",
+        image:"/src/screenshots/21.png"
+    },
 ]
 
 export default ejercicios
