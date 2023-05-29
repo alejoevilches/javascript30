@@ -109,6 +109,11 @@ const ejercicios=[
         description: "Ejercicio para trabajar con APIs del navegador",
         image:"/src/screenshots/21.png"
     },
+        {
+        title:"Sticky Nav",
+        description: "Deteccion de movimiento para un nav",
+        image:"/src/screenshots/22.png"
+    },
 ]
 
 export default ejercicios
