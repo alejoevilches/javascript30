@@ -134,6 +134,22 @@ const ejercicios=[
         description: "App para modificar la velocidad de reproduccion de un video",
         image:"/src/screenshots/26.png"
     },
+    {
+        title:"Countdown Clock",
+        description: "Un timer hecho en JS",
+        image:"/src/screenshots/27.png"
+        
+    },
+    {
+        title:"Wrack-A-Mole Game",
+        description: "Un juego para probar eventos de tiempo en JS",
+        image:"/src/screenshots/28.png"
+    },
+    {
+        title:"Webcam Fun",
+        description: "App para capturar medios de la computadora",
+        image:"/src/screenshots/29.png"
+    },
 ]
 
 export default ejercicios
