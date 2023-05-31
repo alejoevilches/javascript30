@@ -129,6 +129,11 @@ const ejercicios=[
         description: "Un slide que puede scrollearse",
         image:"/src/screenshots/25.png"
     },
+    {
+        title:"Video Speed Controller UI",
+        description: "App para modificar la velocidad de reproduccion de un video",
+        image:"/src/screenshots/26.png"
+    },
 ]
 
 export default ejercicios
